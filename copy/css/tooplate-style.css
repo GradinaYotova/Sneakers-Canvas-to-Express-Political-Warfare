@@ -1,0 +1,108 @@
+
+body {
+	font-weight: 300;
+	overflow-x: hidden;
+	background-color: #FFFAFA;
+	background-color: #000;
+	cursor: crosshair;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(NeueMachinaRegular400.otf);
+}
+
+@font-face{
+	font-family: myFontTwo;
+	src:url(FuturaCondensedExtraBold.otf);
+}
+
+.parallax-window {
+	min-height:50vh;
+	background: transparent;
+	display: flex;
+	align-items: center;
+}
+
+#p2{
+	z-index: 10;
+	padding: 10px;
+	font-size: 2em;
+	font-family: myFontTwo;
+	color: #000000c9;
+	margin-left:1%;
+	margin-top: -22%;
+	text-decoration: none;
+	animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {  
+     50% { opacity: 0; }
+      }
+
+h1 {
+	width: 100%;
+	font-family: myFontTwo;
+	font-size: 80px;
+	padding:5px;
+	line-height: 0.4;
+	padding-top: 250px;
+	color: #fff;
+/*	text-align: center;*/	
+	display: block;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#title{
+	width: 50%:;
+	font-size:50px;
+	margin-top: -190%;
+	margin-left: 2%;
+}
+
+
+small{
+
+	font-size:18px;
+/*	margin-left: 45px;*/
+/*	border-bottom: 3px solid #fff;*/
+/*	letter-spacing: 0.01em;*/
+	text-shadow: none;
+}
+
+
+img{
+	/*filter: blur(6px);*/
+	
+}
+
+
+#p{	
+/*	text-align: justify;*/
+	display: inline-block;
+	width: 100%;
+	font-family: myFont;
+	font-size: 13.5px;
+/*	margin-top: -10%;*/
+	padding: 10px;
+	margin-left: 0%;
+	color: #fff;
+	line-height: 1.35;
+  	letter-spacing: 0.01em;
+  	word-spacing: -0.01em;
+  	column-count: 4;
+  	column-gap: 30px;
+/*  background-color: #ffffffc4;*/
+}
+
+
+.goToTop{
+	padding: 10px;
+	font-size: 1.5em;
+	font-family: myFontTwo;
+	color: #fff;
+	margin-left: 45%;
+	text-decoration: none;
+	animation: blinker 5s linear infinite;
+	cursor: crosshair;
+}
