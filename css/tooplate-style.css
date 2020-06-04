@@ -9,8 +9,8 @@ body {
 }
 
 #tm-section-26{
-	width: 80%;
-	margin-left: 10%;
+	width: 90%;
+	margin-left: 5%;
 }
 
 #tm-section-25{
@@ -23,8 +23,8 @@ outline: none;
 #tm-section-79{
 	cursor: crosshair;
 	background-color: #000;
-	width: 80%;
-	margin-left: 10%;
+	width: 90%;
+	margin-left: 5%;
 }
 
 @font-face {
@@ -62,7 +62,7 @@ outline: none;
 h1 {
 	width: 90%;
 	font-family: myFontTwo;
-	font-size: 80px;
+	font-size: 100px;
 	padding:5px;
 	line-height: 0.4;
 	padding-top: 250px;
@@ -72,15 +72,15 @@ h1 {
 
 #title{
 	width: 50%:;
-	font-size:50px;
-	margin-top: -230%;
+	font-size:70px;
+	margin-top: -185%;
 	margin-left: 0%;
 }
 
 
 small{
 
-	font-size:18px;
+	font-size:25px;
 	text-shadow: none;
 }
 
@@ -94,14 +94,14 @@ img{
 	display: inline-block;
 	width: 100%;
 	font-family: myFont;
-	font-size: 13.5px;
+	font-size: 15.5px;
 	padding: 10px;
 	color: #fff;
 	line-height: 1.35;
   	letter-spacing: 0.01em;
   	word-spacing: -0.01em;
-  	column-count: 4;
-  	column-gap: 30px;
+  	column-count: 3;
+  	column-gap: 40px;
 }
 
 a{
